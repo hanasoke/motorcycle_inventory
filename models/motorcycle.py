@@ -1,4 +1,4 @@
-class Motor: 
+class Motorcycle: 
     def __init__(self, code, brand, type, stock, price):
         self.code = code 
         self.brand = brand 

@@ -1,4 +1,4 @@
-class MotorModel: 
+class MotorcycleModel: 
     def __init__(self):
         self.data = []
         
