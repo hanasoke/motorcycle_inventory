@@ -12,7 +12,6 @@ class MotorcycleModel:
         for m in self.data: 
             if m.code == code: 
                 return m 
-            return None 
         return None 
     
     def delete(self, motorcycle):

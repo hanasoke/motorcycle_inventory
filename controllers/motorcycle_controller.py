@@ -28,7 +28,7 @@ class MotorcycleController:
         self.view.show_all(data)
         
     def delete_motorcycle(self): 
-        code = input("The Motor Code want to be deleted: ")
+        code = input("The Motorcycle Code want to be deleted: ")
         m = self.model.search(code)
         if m: 
             self.model.delete(m)
